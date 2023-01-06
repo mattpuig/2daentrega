@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 display: grid;    
@@ -12,6 +12,8 @@ gap: 0.3px;
 
 color: white;
 }
+
+
 
 nav {
     grid-area: nav;
@@ -68,6 +70,7 @@ nav {
     }
 
 main {
+    padding: 15px;
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
@@ -313,4 +316,15 @@ footer .mapa {
         transform: translate(2000px ,0);
         background-color: black;
     }
+}
+
+.card {
+    color: black;
+    height: auto;
+    width: 200px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
 }
